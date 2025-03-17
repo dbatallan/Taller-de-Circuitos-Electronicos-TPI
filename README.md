@@ -5,6 +5,7 @@
 | Alumno | Padrón |
 | -- | -- |
 | BATALLAN, David Leonardo | 97529 |
+| CARICATO, Ezequiel Nicolas | 93966 |
 
 ## Fechas
 
