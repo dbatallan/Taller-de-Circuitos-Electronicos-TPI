@@ -1,0 +1,106 @@
+Circuit: * C:\Users\dbata\OneDrive\Escritorio\Checkpoint 1\Version 1.5\Version 1.5.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 4.86951e-006
+vernier = 0.166667
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+vernier = 0.00520833
+Gmin = 4.30556e-006
+vernier = 0.00260417
+vernier = 0.00130208
+vernier = 0.000651042
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q6          q5          q9          q8          q7
+Model:    2n3019      d45h11      bc547c      bc547c      bc547c
+Ib:       6.53e-07   -1.43e-04    2.39e-06    2.25e-06    2.25e-06
+Ic:       1.43e-04   -1.83e-02    1.10e-03    1.02e-03    1.04e-03
+Vbe:      5.94e-01   -4.10e-01    6.24e-01    6.22e-01    6.22e-01
+Vbc:     -9.71e+00    1.03e+01   -1.24e+00    0.00e+00   -1.26e+00
+Vce:      1.03e+01   -1.07e+01    1.87e+00    6.22e-01    1.88e+00
+BetaDC:   2.19e+02    1.28e+02    4.63e+02    4.52e+02    4.63e+02
+Gm:       5.53e-03    8.32e-01    4.19e-02    3.86e-02    3.95e-02
+Rpi:      3.96e+04    1.54e+02    1.10e+04    1.17e+04    1.17e+04
+Rx:       1.00e+01    2.35e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       7.66e+05    1.13e+03    4.87e+04    5.17e+04    5.17e+04
+Cbe:      7.12e-11    4.69e-09    5.17e-11    5.00e-11    5.05e-11
+Cbc:      6.20e-12    1.84e-10    1.58e-12    2.74e-12    1.57e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.19e+02    1.28e+02    4.60e+02    4.50e+02    4.60e+02
+Cbx:      0.00e+00    4.50e-11    9.71e-13    1.69e-12    9.68e-13
+Ft:       1.14e+07    2.69e+07    1.23e+08    1.13e+08    1.19e+08
+
+Name:       q2          q1          q4          q3
+Model:    bc547c      bc547c      bc557c      bc557c
+Ib:      -3.78e-12    1.97e-06   -1.78e-06   -2.33e-06
+Ic:       1.90e-12    1.04e-03   -1.11e-03   -1.03e-03
+Vbe:     -1.87e+00    6.19e-01   -6.12e-01   -6.19e-01
+Vbc:     -1.88e+00   -8.78e+00    9.39e+00    0.00e+00
+Vce:      3.65e-03    9.40e+00   -1.00e+01   -6.19e-01
+BetaDC:  -5.04e-01    5.28e+02    6.21e+02    4.44e+02
+Gm:      -8.96e-44    3.95e-02    4.17e-02    3.89e-02
+Rpi:      1.00e+12    1.33e+04    1.48e+04    1.13e+04
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       4.29e+42    5.91e+04    2.99e+04    2.29e+04
+Cbe:      7.47e-12    5.02e-11    5.35e-11    5.23e-11
+Cbc:      1.43e-12    9.49e-13    1.35e-12    4.91e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:  -8.96e-32    5.26e+02    6.20e+02    4.41e+02
+Cbx:      8.77e-13    5.84e-13    7.95e-13    2.90e-12
+Ft:       1.63e-02    1.21e+08    1.19e+08    1.03e+08
+
+
+
+vo1rc: v(vo)=5.00802 at 100
+vo2rc: v(vo)=0.102238 at 5
+io1rc: i(rl)=0.0500802 at 100
+io2rc: i(rl)=0.0204475 at 5
+regcar: (-(vo2rc-vo1rc)/(io2rc-io1rc))=-165.553
+
+
+Date: Mon Mar 24 23:01:19 2025
+Total elapsed time: 7.104 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 654
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 41
+fillins = 45
+solver = Normal
+Matrix Compiler1: 5.33 KB object code size
+Matrix Compiler2: 4.50 KB object code size  0.4/0.4/[0.2]
+
