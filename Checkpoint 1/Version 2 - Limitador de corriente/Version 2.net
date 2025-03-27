@@ -1,0 +1,50 @@
+* C:\Users\dbata\OneDrive\Escritorio\Checkpoint 1\Version 2 - Limitador de corriente\Version 2.asc
+Q3 N006 N006 N003 0 BC557C
+Q4 N007 N006 N004 0 BC557C
+Q1 N006 Vref N008 0 BC547C
+Q2 N007 Vf N008 0 BC547C
+Q5 N001 N005 Vreg 0 D45H11
+Q6 N005 N007 N001 0 2N3019
+R5 Vo Vf 22k
+R6 Vf 0 22k
+RL Vo 0 {RL}
+V1 Vref 0 {VREFDC} AC {VREFAC}
+R8 Vreg N003 {RE}
+R9 Vreg N004 {RE}
+C3 Vo 0 1µ
+VIN Vreg 0 {VINDC} AC {VINAC}
+Q7 N008 N009 0 0 BC547C
+Q8 N009 N009 0 0 BC547C
+Rpol Vref N009 1.8k
+Q9 N007 N002 Vo 0 BC547C
+R1 Vo N001 70
+R2 N002 0 2k
+R3 N001 N002 2k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\dbata\OneDrive\Documentos\LTspiceXVII\lib\cmp\standard.bjt
+.op
+.param VINDC 20
+.param VINAC 1
+.param VREFDC 2.5
+.param VREFAC 0
+;param RL 1k
+;dc VIN 2 24
+;step param RE 1 1k 100
+.param RE 47
+.step dec param RL 100k 1 60
+* Mido regulacion de linea
+.meas DC Vo1rl FIND V(Vo) AT=12
+.meas DC Vo2rl FIND V(Vo) AT=24
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/12)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 5
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 5
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+* Rpol Valores tipicos 1800
+.backanno
+.end
