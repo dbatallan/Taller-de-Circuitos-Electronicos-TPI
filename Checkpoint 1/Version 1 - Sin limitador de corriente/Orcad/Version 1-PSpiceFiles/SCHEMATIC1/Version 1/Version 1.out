@@ -1,0 +1,128 @@
+
+**** 03/29/25 23:54:15 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 1"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Version 1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Lionheart\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vreg 1 30 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source VERSION 1
+.EXTERNAL OUTPUT Vreg
+.EXTERNAL OUTPUT Vref
+.EXTERNAL OUTPUT Vo
+R_RL         0 VO  1k TC=0,0 
+R_Rfes         VREF N03780  1.8k TC=0,0 
+R_RE1         N03474 VREG  47 TC=0,0 
+R_RF2         0 N03574  22k TC=0,0 
+V_Vref         VREF 0 2.5
+Q_Q7         N03434 N03486 VO BC547C 
+V_Vreg         VREG 0 9.5
+Q_Q8         VO N03434 VREG TIP42C
+Q_Q6         N03780 N03780 0 BC547C 
+Q_Q4         N03486 N03562 N03480 BC557C 
+Q_Q2         N03486 N03574 N03700 BC547C 
+Q_Q1         N03562 VREF N03700 BC547C 
+R_RF1         N03574 VO  22k TC=0,0 
+Q_Q5         N03700 N03780 0 BC547C 
+Q_Q3         N03562 N03562 N03474 BC557C 
+R_RE2         N03480 VREG  47 TC=0,0 
+R_R1         0 VREF  11k TC=0,0 
+
+**** RESUMING "Version 1.cir" ****
+.END
+
+**** 03/29/25 23:54:15 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 1"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC547C          BC557C          TIP42C          
+               NPN             PNP             PNP             
+       LEVEL    1               1               1            
+          IS    7.049000E-15    1.020000E-15   66.190000E-15 
+          BF  543.1           416.3           137.6          
+          NF    1               1               1            
+         VAF   24.76           30.52          100            
+         IKF     .09496          .2088          1.642        
+         ISE   78.170000E-15   14.670000E-15  862.200000E-15 
+          NE    1.679           1.854           1.481        
+          BR    1               9.102           5.88         
+          NR    1               1               1            
+         IKR    3.321            .01925         3.555        
+         ISC   27.510000E-15    4.100000E-15  273.500000E-15 
+          NC    1.775           3.982           1.24         
+          NK     .5381           .8219           .5695       
+         ISS    0               0               0            
+          RB                                     .1          
+          RE    0               0               0            
+          RC     .9706           .9373           .07939      
+         CJE   11.500000E-12   30.000000E-12  390.100000E-12 
+         VJE     .5              .5              .75         
+         MJE     .6715           .3333           .4343       
+         CJC    5.250000E-12    9.810000E-12  870.400000E-12 
+         VJC     .5697           .4865           .75         
+         MJC     .3147           .332            .6481       
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          TF  410.700000E-12  516.200000E-12   23.210000E-09 
+         XTF   26.19           35.24            5.982        
+         VTF   10              10              10            
+         ITF    1.12            1.701          71.33         
+          TR   10.000000E-09   10.000000E-09  235.400000E-09 
+         XTB    1.5             1.5             2            
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.2          
+           D     .87             .52             .52         
+
+
+
+          JOB CONCLUDED
+
+**** 03/29/25 23:54:15 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 1"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .11
+

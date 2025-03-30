@@ -1,0 +1,132 @@
+
+**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Carga.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Lionheart\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC DEC PARAM RVAL 0.01 1k 30 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source VERSION 2
+.EXTERNAL OUTPUT Vreg
+.EXTERNAL OUTPUT Vo
+.EXTERNAL OUTPUT Vref
+R_RL         0 VO  {RVAL} TC=0,0 
+Q_Q4         N03486 N03562 N03480 BC557C 
+R_RE2         N03480 VREG  47 TC=0,0 
+V_Vref         VREF 0 2.5
+Q_Q1         N03562 VREF N03700 BC547C 
+Q_Q8         N03338 N03434 VREG TIP42C
+Q_Q5         N03700 N03780 0 BC547C 
+Q_Q2         N03486 N03574 N03700 BC547C 
+V_Vreg         VREG 0 9.5
+R_RF1         N03574 VO  22k TC=0,0 
+R_Rfes         VREF N03780  1.8k TC=0,0 
+R_RE1         N03474 VREG  47 TC=0,0 
+Q_Q7         N03434 N03486 N03338 BC547C 
+Q_Q6         N03780 N03780 0 BC547C 
+R_RF2         0 N03574  22k TC=0,0 
+Q_Q3         N03562 N03562 N03474 BC557C 
+Q_Q9         N03486 N04427 VO BC547C 
+R_RS         N03338 VO  2.23 TC=0,0 
+R_R1         N04427 N03338  4925 TC=0,0 
+R_R2         0 N04427  10k TC=0,0 
+.PARAM  rval=1k
+
+**** RESUMING Carga.cir ****
+.END
+
+**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC557C          BC547C          TIP42C          
+               PNP             NPN             PNP             
+       LEVEL    1               1               1            
+          IS    1.020000E-15    7.049000E-15   66.190000E-15 
+          BF  416.3           543.1           137.6          
+          NF    1               1               1            
+         VAF   30.52           24.76          100            
+         IKF     .2088           .09496         1.642        
+         ISE   14.670000E-15   78.170000E-15  862.200000E-15 
+          NE    1.854           1.679           1.481        
+          BR    9.102           1               5.88         
+          NR    1               1               1            
+         IKR     .01925         3.321           3.555        
+         ISC    4.100000E-15   27.510000E-15  273.500000E-15 
+          NC    3.982           1.775           1.24         
+          NK     .8219           .5381           .5695       
+         ISS    0               0               0            
+          RB                                     .1          
+          RE    0               0               0            
+          RC     .9373           .9706           .07939      
+         CJE   30.000000E-12   11.500000E-12  390.100000E-12 
+         VJE     .5              .5              .75         
+         MJE     .3333           .6715           .4343       
+         CJC    9.810000E-12    5.250000E-12  870.400000E-12 
+         VJC     .4865           .5697           .75         
+         MJC     .332            .3147           .6481       
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          TF  516.200000E-12  410.700000E-12   23.210000E-09 
+         XTF   35.24           26.19            5.982        
+         VTF   10              10              10            
+         ITF    1.701           1.12           71.33         
+          TR   10.000000E-09   10.000000E-09  235.400000E-09 
+         XTB    1.5             1.5             2            
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.2             2.42            2.2          
+           D     .52             .87             .52         
+
+
+
+          JOB CONCLUDED
+
+**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

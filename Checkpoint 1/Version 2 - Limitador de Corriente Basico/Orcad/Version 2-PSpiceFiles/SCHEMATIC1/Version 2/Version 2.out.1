@@ -1,0 +1,65 @@
+
+**** 03/30/25 00:43:15 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 2"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Version 2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Lionheart\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC DEC PARAM RVAL 1k 0.001 30 
+.STEP DEC PARAM RVAL 1k 0.001 30 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source VERSION 2
+.EXTERNAL OUTPUT Vreg
+.EXTERNAL OUTPUT Vo
+.EXTERNAL OUTPUT Vref
+R_RL         0 VO  {RVAL} TC=0,0 
+Q_Q4         N03486 N03562 N03480 BC557C 
+R_RE2         N03480 VREG  47 TC=0,0 
+V_Vref         VREF 0 2.5
+Q_Q1         N03562 VREF N03700 BC547C 
+Q_Q8         N03338 N03434 VREG TIP42C
+Q_Q5         N03700 N03780 0 BC547C 
+Q_Q2         N03486 N03574 N03700 BC547C 
+V_Vreg         VREG 0 9.5
+R_RF1         N03574 VO  22k TC=0,0 
+R_Rfes         VREF N03780  1.8k TC=0,0 
+R_RE1         N03474 VREG  47 TC=0,0 
+Q_Q7         N03434 N03486 N03338 BC547C 
+Q_Q6         N03780 N03780 0 BC547C 
+R_RF2         0 N03574  22k TC=0,0 
+Q_Q3         N03562 N03562 N03474 BC557C 
+Q_Q9         N03486 N04427 VO BC547C 
+R_RS         N03338 VO  2.23 TC=0,0 
+R_R1         N04427 N03338  4925 TC=0,0 
+R_R2         0 N04427  1k TC=0,0 
+.PARAM  rval=1
+
+**** RESUMING "Version 2.cir" ****
+.END
+
+
+ERROR(ORPSIM-15051): A device may appear in .DC and .STEP commands only once
+
