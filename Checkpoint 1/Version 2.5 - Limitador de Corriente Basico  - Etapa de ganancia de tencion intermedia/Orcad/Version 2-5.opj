@@ -1,4 +1,4 @@
-(ExpressProject "Version 1-5"
+(ExpressProject "Version 2-5"
   (ProjectVersion "19981106")
   (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[03/30/25]")
   (ProjectType "Analog or A/D Mixed Mode")
@@ -8,21 +8,26 @@
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
-    (File ".\version 1-5.dsn"
+    (File ".\version 2-5.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (PSPICE_Regenerate_Netlist_Flag "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
-    (File ".\version 1-5-pspicefiles\schematic1\schematic1.net"
+    (File ".\version 2-5-pspicefiles\schematic1\schematic1.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\version 1-5-pspicefiles\schematic1\version 1-5.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\version 1-5-pspicefiles\schematic1\version 1-5.sim"
-        (DisplayName "SCHEMATIC1-Version 1-5")
+         ".\version 2-5-pspicefiles\schematic1\version 2-5.sim"
+        (DisplayName "SCHEMATIC1-Version 2-5")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\version 2-5-pspicefiles\schematic1\regulaciondecarga.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\version 2-5-pspicefiles\schematic1\regulaciondecarga.sim"
+        (DisplayName "SCHEMATIC1-RegulacionDeCarga")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -33,23 +38,19 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
-    (C
-      (FullPartName "C.Normal")
+    (R
+      (FullPartName "R.Normal")
       (LibraryName
          "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 1.5 - Sin limitador de corriente - Etapa de ganancia de tencion intermedia\Orcad\version 1-5.dsn")
-      (Path "Design Resources"
-         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 1.5 - Sin limitador de corriente - Etapa de ganancia de tencion intermedia\Orcad\version 1-5.dsn"
-         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 1.5 - Sin limitador de corriente - Etapa de ganancia de tencion intermedia\Orcad\version 1-5.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

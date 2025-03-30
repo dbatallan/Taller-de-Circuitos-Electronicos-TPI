@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - Limitador de Corriente Basico\Orcad\version 2-pspicefiles\schematic1\carga.sim ] 
+** Profile: "SCHEMATIC1-Version 2-5"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2.5 - Limitador de Corriente Basico  - Etapa de ganancia de tencion intermedia\Orcad\Version 2-5-PSpiceFiles\SCHEMATIC1\Version 2-5.sim ] 
 
-** Creating circuit file "Carga.cir" 
+** Creating circuit file "Version 2-5.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -10,7 +10,6 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.DC DEC PARAM RVAL 0.0001 1k 30 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 

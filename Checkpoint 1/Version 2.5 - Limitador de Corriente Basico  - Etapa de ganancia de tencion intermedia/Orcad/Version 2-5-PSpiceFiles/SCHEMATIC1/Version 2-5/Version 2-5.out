@@ -1,0 +1,172 @@
+
+**** 03/30/25 12:42:04 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 2-5"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Versio
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Version 2-5.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Lionheart\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source VERSION 2-5
+.EXTERNAL OUTPUT Vref
+.EXTERNAL OUTPUT Vreg
+.EXTERNAL OUTPUT Vo
+.EXTERNAL OUTPUT Vf
+V_Vreg         VREG 0 9.5
+Q_Q5         N06566 N06646 0 BC547C 
+Q_Q4         N06406 N06376 N06222 BC557C 
+Q_Q6         N06646 N06646 0 BC547C 
+Q_Q2         N06406 VREF N06566 BC547C 
+R_RF1         VF VO  22k TC=0,0 
+R_RE2         N06222 VREG  47 TC=0,0 
+Q_Q3         N06376 N06376 N06216 BC557C 
+R_Rfes         VREF N06646  1.8k TC=0,0 
+R_R2         0 N06212  10k TC=0,0 
+R_R1         N06212 N06074  4925 TC=0,0 
+V_Vref         VREF 0 2.5
+Q_Q7         N06228 N06388 N06074 BC547C 
+Q_Q8         N06074 N06228 VREG TIP42C
+R_RS         N06074 VO  2.23 TC=0,0 
+R_RE1         N06216 VREG  47 TC=0,0 
+Q_Q1         N06376 VF N06566 BC547C 
+Q_Q9         N06388 N06212 VO BC547C 
+R_RF2         0 VF  22k TC=0,0 
+R_RL         0 VO  {RVAL} TC=0,0 
+C_C1         N06406 N06388  2n  TC=0,0 
+Q_Q10         N06388 N07667 VREG BC557C 
+Q_Q11         N06388 VREF N07747 BC547C 
+R_R3         0 N07747  1.8k TC=0,0 
+R_R4         N06406 N07667  50k TC=0,0 
+.PARAM  rval=1k
+
+**** RESUMING "Version 2-5.cir" ****
+.END
+
+**** 03/30/25 12:42:04 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 2-5"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Versio
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC547C          BC557C          TIP42C          
+               NPN             PNP             PNP             
+       LEVEL    1               1               1            
+          IS    7.049000E-15    1.020000E-15   66.190000E-15 
+          BF  543.1           416.3           137.6          
+          NF    1               1               1            
+         VAF   24.76           30.52          100            
+         IKF     .09496          .2088          1.642        
+         ISE   78.170000E-15   14.670000E-15  862.200000E-15 
+          NE    1.679           1.854           1.481        
+          BR    1               9.102           5.88         
+          NR    1               1               1            
+         IKR    3.321            .01925         3.555        
+         ISC   27.510000E-15    4.100000E-15  273.500000E-15 
+          NC    1.775           3.982           1.24         
+          NK     .5381           .8219           .5695       
+         ISS    0               0               0            
+          RB                                     .1          
+          RE    0               0               0            
+          RC     .9706           .9373           .07939      
+         CJE   11.500000E-12   30.000000E-12  390.100000E-12 
+         VJE     .5              .5              .75         
+         MJE     .6715           .3333           .4343       
+         CJC    5.250000E-12    9.810000E-12  870.400000E-12 
+         VJC     .5697           .4865           .75         
+         MJC     .3147           .332            .6481       
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          TF  410.700000E-12  516.200000E-12   23.210000E-09 
+         XTF   26.19           35.24            5.982        
+         VTF   10              10              10            
+         ITF    1.12            1.701          71.33         
+          TR   10.000000E-09   10.000000E-09  235.400000E-09 
+         XTB    1.5             1.5             2            
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.2          
+           D     .87             .52             .52         
+
+
+**** 03/30/25 12:42:04 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 2-5"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Versio
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   VF)    2.4999  (   VO)    5.0215  ( VREF)    2.5000  ( VREG)    9.5000      
+
+(N06074)    5.0330 (N06212)    3.3722 (N06216)    9.4751 (N06222)    9.4751     
+
+(N06228)    8.8510 (N06376)    8.7774 (N06388)    5.6202 (N06406)    8.6739     
+
+(N06566)    1.8578 (N06646)     .6648 (N07667)    8.7877 (N07747)    1.8382 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vreg      -7.555E-03
+    V_Vref      -1.023E-03
+
+    TOTAL POWER DISSIPATION   7.43E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/30/25 12:42:04 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Version 2-5"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Versio
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - Limitador de Corriente Basico\Orcad\version 2-pspicefiles\schematic1\carga.sim ] 
+** Profile: "SCHEMATIC1-RegulacionDeCarga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2.5 - Limitador de Corriente Basico  - Etapa de ganancia de tencion intermedia\Orcad\Version 2-5-PSpiceFiles\SCHEMATIC1\RegulacionDeCarga.sim ] 
 
-** Creating circuit file "Carga.cir" 
+** Creating circuit file "RegulacionDeCarga.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 

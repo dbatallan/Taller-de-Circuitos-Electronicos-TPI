@@ -1,5 +1,5 @@
 
-**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+**** 03/30/25 14:13:57 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -22,7 +22,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.DC DEC PARAM RVAL 0.01 1k 30 
+.DC DEC PARAM RVAL 0.0001 1k 30 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -59,7 +59,7 @@ R_R2         0 N04427  10k TC=0,0
 **** RESUMING Carga.cir ****
 .END
 
-**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+**** 03/30/25 14:13:57 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -116,7 +116,7 @@ R_R2         0 N04427  10k TC=0,0
 
           JOB CONCLUDED
 
-**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+**** 03/30/25 14:13:57 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -128,5 +128,5 @@ R_R2         0 N04427  10k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .08
+  Total job time (using Solver 1)   =         .05
 
