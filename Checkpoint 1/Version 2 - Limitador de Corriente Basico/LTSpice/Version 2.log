@@ -1,6 +1,6 @@
 LTspice 24.1.6 for Windows
 Circuit: C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - Limitador de Corriente Basico\LTSpice\Version 2.net
-Start Time: Sun Mar 30 11:37:56 2025
+Start Time: Sun Mar 30 14:53:55 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -26,14 +26,14 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 8.276 seconds.
+Total elapsed time: 8.499 seconds.
 
 Files loaded:
 C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - Limitador de Corriente Basico\LTSpice\Version 2.net
 C:\Users\Lionheart\AppData\Local\LTspice\lib\cmp\standard.bjt
 
-vo1rc: V(Vo)=5.03068590164 at 100
-vo2rc: V(Vo)=5.01619379503 at 5
-io1rc: I(RL)=0.0503068603575 at 100
-io2rc: I(RL)=1.00342148749 at 5
-regcar: (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))=0.0152049986446
+vo1rc: V(Vo)=5.03083562851 at 100
+vo2rc: V(Vo)=5.02114825105 at 5
+io1rc: I(RL)=0.0503083541989 at 100
+io2rc: I(RL)=1.00441288738 at 5
+regcar: (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))=0.0101533711708
