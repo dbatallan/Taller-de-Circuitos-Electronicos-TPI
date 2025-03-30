@@ -59,16 +59,17 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 591"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 614"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1083 24 632")
-        (Scroll "448 212")
+        (Placement "44 0 1 -1 -1 5 24 5 1354 24 632")
+        (Scroll "177 313")
         (Zoom "154")
         (Occurrence "/"))
       (Path
          "C:\USERS\LIONHEART\DOCUMENTS\GITHUB\TALLER-DE-CIRCUITOS-ELECTRONICOS-TPI\CHECKPOINT 1\VERSION 2 - LIMITADOR DE CORRIENTE BASICO\ORCAD\VERSION 2.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1")))
+  (MPSSessionName "Lionheart"))

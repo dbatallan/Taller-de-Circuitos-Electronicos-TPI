@@ -1,5 +1,5 @@
-
-**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -59,7 +59,7 @@ R_R2         0 N04427  10k TC=0,0
 **** RESUMING Carga.cir ****
 .END
 
-**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -116,7 +116,7 @@ R_R2         0 N04427  10k TC=0,0
 
           JOB CONCLUDED
 
-**** 03/30/25 00:57:08 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+**** 03/30/25 11:44:47 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-Carga"  [ C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2 - 
 
@@ -128,5 +128,5 @@ R_R2         0 N04427  10k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .02
+  Total job time (using Solver 1)   =         .08
 

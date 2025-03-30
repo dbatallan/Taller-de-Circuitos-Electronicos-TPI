@@ -1,0 +1,20 @@
+LTspice 24.1.6 for Windows
+Circuit: C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 1.5 - Sin limitador de corriente - Etapa de ganancia de tencion intermedia\LTSpice\Version 1.5.net
+Start Time: Sun Mar 30 11:36:59 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 7.273 seconds.
+
+Files loaded:
+C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 1.5 - Sin limitador de corriente - Etapa de ganancia de tencion intermedia\LTSpice\Version 1.5.net
+C:\Users\Lionheart\AppData\Local\LTspice\lib\cmp\standard.bjt
+
+vo1rc: V(Vo)=5.02290201187 at 100
+vo2rc: V(Vo)=5.0228905372 at 5
+io1rc: I(RL)=0.0502290204167 at 100
+io2rc: I(RL)=1.00476188766 at 5
+regcar: (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))=1.20212406359e-05
