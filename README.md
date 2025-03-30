@@ -15,7 +15,7 @@
   - SELECCIÓN DEL TRANSISTOR DE PASO.
   - DISEÑO VERIFICADO POR SIMULACIÓN DEL LAZO DE CORRIENTE (ESTÁTICO).
   - ESQUEMÁTICO DE PCB.
-  - [Informe][https://es.overleaf.com/7354225868prtsksdvqyzd#819878](https://www.overleaf.com/3897976553wqghxpknkzrb#0e6126)
+  - [Informe](https://www.overleaf.com/3897976553wqghxpknkzrb#0e6126)
 
 - **CHECKPOINT 2 - 25/04/2025**:
   - DISEÑO VERIFICADO POR SIMULACIÓN DE LA COMPENSACIÓN DE LOS DOS LAZOS.
