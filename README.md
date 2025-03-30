@@ -9,7 +9,7 @@
 
 ## Fechas
 
-* [Informe]([https://es.overleaf.com/7354225868prtsksdvqyzd#819878](https://www.overleaf.com/3897976553wqghxpknkzrb#0e6126 ))
+* [Informe][https://es.overleaf.com/7354225868prtsksdvqyzd#819878](https://www.overleaf.com/3897976553wqghxpknkzrb#0e6126)
 * 
 - **CHECKPOINT 1 - 04/04/2025**:
   - DISEÑO VERIFICADO POR SIMULACIÓN DE LAZO DE TENSIÓN (ESTÁTICO).
