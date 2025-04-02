@@ -47,20 +47,23 @@ Ft:       1.61e-02    1.20e+08    1.14e+08    1.02e+08
 
 
 
-vo1rc: v(vo)=5.00534 at 100
+
+Measurement "vo1rc" FAIL'ed
 vo2rc: v(vo)=4.99948 at 5
-io1rc: i(rl)=0.0500534 at 100
+
+Measurement "io1rc" FAIL'ed
 io2rc: i(rl)=0.999983 at 5
-regcar: (-(vo2rc-vo1rc)/(io2rc-io1rc))=0.00617131
+
+Measurement "regcar" FAIL'ed
 
 
-Date: Wed Apr 02 00:12:54 2025
-Total elapsed time: 4.875 seconds.
+Date: Wed Apr 02 15:40:09 2025
+Total elapsed time: 3.570 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 474
+totiter = 416
 traniter = 0
 tranpoints = 0
 accept = 0
@@ -69,5 +72,5 @@ matrix size = 44
 fillins = 36
 solver = Normal
 Matrix Compiler1: 5.47 KB object code size
-Matrix Compiler2: 4.54 KB object code size  0.4/0.4/[0.3]
+Matrix Compiler2: 4.54 KB object code size  0.4/0.4/[0.2]
 
