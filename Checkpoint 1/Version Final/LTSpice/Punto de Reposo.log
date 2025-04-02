@@ -1,0 +1,101 @@
+Circuit: * C:\Users\Lionheart\Desktop\Version Final\LTSpice\Punto de Reposo.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+Gmin = 5.07481e-007
+vernier = 0.333333
+Gmin = 2.46338e-007
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 7.53348e-008
+vernier = 0.790123
+vernier = 1
+Gmin = 1.24011e-008
+Gmin = 1.33156e-009
+Gmin = 1.42975e-010
+Gmin = 1.53518e-011
+Gmin = 1.64839e-012
+Gmin = 1.76994e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q5          q9          q8          q7          q6
+Model:    tip42c      bc547c      bc547c      bc547c      bc547c
+Ib:      -1.27e-05   -3.85e-12    2.27e-06    2.25e-06    2.68e-08
+Ic:      -9.52e-04    2.19e-12    1.03e-03    1.03e-03    1.27e-05
+Vbe:     -6.04e-01   -1.66e+00    6.23e-01    6.22e-01    5.06e-01
+Vbc:      3.87e+00   -2.16e+00    0.00e+00   -4.31e-01   -3.36e+00
+Vce:     -4.47e+00    5.07e-01    6.23e-01    1.05e+00    3.87e+00
+BetaDC:   7.47e+01   -5.69e-01    4.52e+02    4.56e+02    4.76e+02
+Gm:       3.68e-02    5.35e-40    3.90e-02    3.91e-02    4.87e-04
+Rpi:      2.40e+03    1.00e+12    1.15e+04    1.16e+04    9.84e+05
+Rx:       1.00e-01    1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       1.09e+05    2.45e+47    5.11e+04    5.15e+04    4.39e+06
+Cbe:      1.52e-09    7.71e-12    5.03e-11    5.03e-11    2.50e-11
+Cbc:      2.68e-10    1.38e-12    2.74e-12    1.99e-12    1.23e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   8.83e+01    5.35e-28    4.50e+02    4.53e+02    4.80e+02
+Cbx:      0.00e+00    8.46e-13    1.69e-12    1.22e-12    7.55e-13
+Ft:       3.27e+06    1.60e-02    1.14e+08    1.16e+08    2.87e+06
+
+Name:       q2          q1          q4          q3
+Model:    bc547c      bc547c      bc557c      bc557c
+Ib:       1.07e-06    1.01e-06   -1.02e-06   -1.14e-06
+Ic:       5.15e-04    5.11e-04   -5.15e-04   -5.09e-04
+Vbe:      6.03e-01    6.01e-01   -5.97e-01   -6.00e-01
+Vbc:     -3.03e+00   -6.16e+00    3.13e+00    0.00e+00
+Vce:      3.64e+00    6.76e+00   -3.72e+00   -6.00e-01
+BetaDC:   4.80e+02    5.07e+02    5.03e+02    4.45e+02
+Gm:       1.96e-02    1.95e-02    1.95e-02    1.93e-02
+Rpi:      2.44e+04    2.60e+04    2.58e+04    2.31e+04
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       1.08e+05    1.15e+05    5.21e+04    4.66e+04
+Cbe:      4.00e-11    3.98e-11    4.13e-11    4.13e-11
+Cbc:      1.26e-12    1.04e-12    2.12e-12    4.91e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   4.79e+02    5.06e+02    5.05e+02    4.45e+02
+Cbx:      7.75e-13    6.42e-13    1.25e-12    2.90e-12
+Ft:       7.44e+07    7.48e+07    6.95e+07    6.24e+07
+
+
+
+vo1rc: v(vo)=58.0501 at 100
+vo2rc: v(vo)=2.9025 at 5
+io1rc: i(rl)=0.00580501 at 100
+io2rc: i(rl)=0.00029025 at 5
+regcar: (-(vo2rc-vo1rc)/(io2rc-io1rc))=-10000
+
+
+Date: Mon Mar 31 22:06:54 2025
+Total elapsed time: 0.040 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 741
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 45
+fillins = 36
+solver = Normal
+Matrix Compiler1: 5.48 KB object code size
+Matrix Compiler2: off  [0.4]/0.4/0.4
+

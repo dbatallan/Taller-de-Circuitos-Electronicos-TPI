@@ -1,0 +1,67 @@
+* C:\Users\Lionheart\Desktop\Version Final\LTSpice\Regulacion de Linea.asc
+Q3 N005 N005 N003 0 BC557C
+Q4 N006 N005 N004 0 BC557C
+Q1 N005 Vref N008 0 BC547C
+Q2 N006 Vf N008 0 BC547C
+Q5 N002 N001 Vreg 0 TIP42C
+Q6 N001 N006 N002 0 BC547C
+RF1 Vo Vf 22k
+RF2 Vf 0 22k
+RL Vo 0 {RL}
+V1 Vref 0 {VREFDC} AC {VREFAC}
+R8 Vreg N003 {RE}
+R9 Vreg N004 {RE}
+CL Vo 0 1µ
+VIN Vreg 0 {VINDC} AC {VINAC}
+Q7 N008 N010 N012 0 BC547C
+Q8 N010 N010 N011 0 BC547C
+Rpol Vref N010 1k
+Q9 N006 N009 Vo 0 BC547C
+RS Vo N002 2.2
+R2 N009 0 10k
+R1_1 N002 N007 220
+R4 Vref 0 11k
+RE7 N012 0 820
+RE8 N011 0 820
+R1_2 N007 N009 4.7k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Lionheart\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.op
+.param VINDC 9.5
+.param VINAC 1
+.param VREFDC 2.5
+.param VREFAC 0
+.param RL 1k
+.dc VIN 0 30 0.1
+;step param RE 1 1k 100
+.param RE 470
+;step dec param RL 1k 0.001 200
+* Mido regulacion de linea
+.meas DC Vo1rl FIND V(Vo) AT=12
+.meas DC Vo2rl FIND V(Vo) AT=24
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/12)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 5
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 5
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+* Rpol Valores tipicos 1800
+.MODEL TIP42C PNP (Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f Ne=1.481
++ Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24 Ikr=3.555 Rc=79.39m
++ Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5 Cje=390.1p Mje=.4343 Vje=.75
++ Tr=235.4n Tf=23.21n Itf=71.33 Xtf=5.982 Vtf=10 Rb=.1 Vceo=100
++ Icrating=6 mfg=Texas)
+* +
+* -
+* vod
+* Amplificador Diferencial
+* Etapa Ganancia de Corriente
+* Limitador de Corriente
+* Realimentador
+* Carga
+.backanno
+.end
