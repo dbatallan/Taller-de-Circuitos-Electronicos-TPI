@@ -49,8 +49,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2.5 - Limitador de Corriente Basico  - Etapa de ganancia de tencion intermedia\Orcad\version 2-5.dsn")
+      (Path "Design Resources"
+         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2.5 - Limitador de Corriente Basico  - Etapa de ganancia de tencion intermedia\Orcad\version 2-5.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "C:\Users\Lionheart\Documents\GitHub\Taller-de-Circuitos-Electronicos-TPI\Checkpoint 1\Version 2.5 - Limitador de Corriente Basico  - Etapa de ganancia de tencion intermedia\Orcad\version 2-5.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
