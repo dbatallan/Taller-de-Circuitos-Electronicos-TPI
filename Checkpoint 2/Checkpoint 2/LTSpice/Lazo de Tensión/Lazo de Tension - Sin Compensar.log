@@ -1,0 +1,143 @@
+Circuit: * C:\Users\Lionheart\Desktop\Checkpoint 2\LTSpice\Lazo de Tensión\Lazo de Tension - Sin Compensar.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+Gmin = 3.21388e-006
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 3.18267e-006
+vernier = 0.0104167
+vernier = 0.0138889
+Gmin = 3.09025e-006
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 2.94851e-006
+vernier = 0.0329218
+Gmin = 2.73875e-006
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 2.42035e-006
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 1.98889e-006
+vernier = 0.138732
+Gmin = 1.4627e-006
+vernier = 0.184976
+vernier = 0.246634
+Gmin = 8.77847e-007
+vernier = 0.328846
+vernier = 0.438461
+Gmin = 3.9376e-007
+vernier = 0.584614
+Gmin = 1.14574e-007
+vernier = 0.779486
+vernier = 1
+Gmin = 1.61257e-008
+Gmin = 1.73148e-009
+Gmin = 1.85916e-010
+Gmin = 1.99626e-011
+Gmin = 2.14347e-012
+Gmin = 2.30153e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:3      d:u1:2      d:u1:1
+Model:  u1:d3mod    u1:d2mod    u1:d4mod
+Id:     -1.21e-12   -7.00e-09   -7.00e-09
+Vd:     -1.20e+00   -3.14e+00   -6.38e-01
+Req:     1.00e+12    1.00e+12    6.28e+11
+CAP:     0.00e+00    1.76e-12    2.89e-12
+
+                        --- Bipolar Transistors ---
+Name:     q:u1:2      q:u1:1        q4          q3          q10
+Model:   u1:qn3904   u1:qn3904    bc557c      bc557c      bc547c
+Ib:       4.55e-05    1.74e-06   -1.02e-06   -1.14e-06    4.11e-06
+Ic:       2.73e-03    1.30e-04   -5.14e-04   -5.08e-04    1.95e-03
+Vbe:      5.71e-01    5.93e-01   -5.97e-01   -6.00e-01    6.38e-01
+Vbc:     -2.56e+00   -1.94e+00    3.09e+00    0.00e+00   -2.86e+00
+Vce:      3.14e+00    2.53e+00   -3.68e+00   -6.00e-01    3.50e+00
+BetaDC:   6.00e+01    7.47e+01    5.02e+02    4.45e+02    4.75e+02
+Gm:       1.05e-01    5.01e-03    1.95e-02    1.92e-02    7.37e-02
+Rpi:      7.77e+02    1.98e+04    2.59e+04    2.32e+04    6.36e+03
+Rx:       0.00e+00    0.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       3.76e+04    7.83e+05    5.21e+04    4.67e+04    2.84e+04
+Cbe:      3.74e-10    8.75e-12    4.13e-11    4.13e-11    6.75e-11
+Cbc:      1.07e-10    2.30e-12    2.13e-12    4.91e-12    1.28e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   8.18e+01    9.93e+01    5.04e+02    4.45e+02    4.69e+02
+Cbx:      0.00e+00    0.00e+00    1.25e-12    2.90e-12    7.87e-13
+Ft:       3.49e+07    7.22e+07    6.94e+07    6.24e+07    1.69e+08
+
+Name:       q2          q1          q9          q8          q7
+Model:    bc547c      bc547c      bc547c      bc547c      bc547c
+Ib:       1.07e-06    1.01e-06   -3.88e-12    2.27e-06    2.25e-06
+Ic:       5.14e-04    5.10e-04    2.23e-12    1.03e-03    1.03e-03
+Vbe:      6.03e-01    6.01e-01   -1.64e+00    6.23e-01    6.22e-01
+Vbc:     -3.07e+00   -6.16e+00   -2.21e+00    0.00e+00   -4.30e-01
+Vce:      3.68e+00    6.76e+00    5.63e-01    6.23e-01    1.05e+00
+BetaDC:   4.80e+02    5.07e+02   -5.76e-01    4.52e+02    4.56e+02
+Gm:       1.96e-02    1.95e-02    9.05e-40    3.90e-02    3.90e-02
+Rpi:      2.44e+04    2.60e+04    1.00e+12    1.15e+04    1.16e+04
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       1.08e+05    1.15e+05    1.20e+48    5.12e+04    5.16e+04
+Cbe:      3.99e-11    3.98e-11    7.73e-12    5.02e-11    5.02e-11
+Cbc:      1.26e-12    1.04e-12    1.37e-12    2.74e-12    1.99e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   4.79e+02    5.06e+02    9.05e-28    4.50e+02    4.53e+02
+Cbx:      7.73e-13    6.42e-13    8.42e-13    1.69e-12    1.22e-12
+Ft:       7.44e+07    7.47e+07    1.60e-02    1.13e+08    1.16e+08
+
+Name:       q6          q5
+Model:    bc547c      tip42c
+Ib:       1.40e-07   -6.72e-05
+Ic:       6.72e-05   -6.42e-03
+Vbe:      5.49e-01   -6.53e-01
+Vbc:     -3.27e+00    3.82e+00
+Vce:      3.82e+00   -4.48e+00
+BetaDC:   4.80e+02    9.55e+01
+Gm:       2.57e-03    2.47e-01
+Rpi:      1.87e+05    4.31e+02
+Rx:       1.00e+00    1.00e-01
+Ro:       8.30e+05    1.62e+04
+Cbe:      2.87e-11    6.43e-09
+Cbc:      1.24e-12    2.70e-10
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   4.82e+02    1.06e+02
+Cbx:      7.60e-13    0.00e+00
+Ft:       1.33e+07    5.87e+06
+
+
+
+
+
+Date: Thu Apr 17 21:57:20 2025
+Total elapsed time: 0.044 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1458
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 62
+fillins = 61
+solver = Normal
+Matrix Compiler1:     449 opcodes
+Matrix Compiler2: off  [0.4]/0.6/0.7
+

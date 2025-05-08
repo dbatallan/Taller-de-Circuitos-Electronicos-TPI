@@ -1,0 +1,145 @@
+( { EESchema Netlist Version 1.1 created  2025-04-10T16:07:39-0300 }
+ ( /070f86ff-07df-410a-8db5-59eb5ad9ee79 Regulador_Lineal:BC557  Q4 BC557
+  (    1 Net-(J3-Pin_1) )
+  (    2 Net-(Q1-C) )
+  (    3 Net-(Q4-E) )
+ )
+ ( /0ba44b35-e125-43e8-a084-8492cb0500ec Regulador_Lineal:Pin_Vertical_1x01_P2.54mm_Vertical  J4 Conn_01x01_Pin
+  (    1 Net-(J4-Pin_1) )
+ )
+ ( /202ad7bb-04e8-4746-9f20-ef3c3873f443 Regulador_Lineal:CP_Radial_generico_D4.0mm_P1.50mm  C1 C_Polarized
+  (    1 Net-(J5-Pin_1) )
+  (    2 GND )
+ )
+ ( /20cbe8a8-902e-4fa3-b8a3-63227b6b42ba Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R8 1k
+  (    1 Net-(J1-Pin_2) )
+  (    2 Net-(Q10-C) )
+ )
+ ( /2cba521f-a86f-4e4b-9ade-02e602c0abf2 Regulador_Lineal:Pin_Vertical_1x01_P2.54mm_Vertical  J5 Conn_01x01_Pin
+  (    1 Net-(J5-Pin_1) )
+ )
+ ( /516b0839-0505-497e-906f-9633a13b37e9 Regulador_Lineal:BC547  Q10 BC547
+  (    1 Net-(Q10-C) )
+  (    2 Net-(Q10-B) )
+  (    3 /Vref )
+ )
+ ( /69ae137c-e475-495e-a072-2840bdf53328 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  RE4 470
+  (    1 /Vreg )
+  (    2 Net-(Q4-E) )
+ )
+ ( /6d4d4324-b72d-4932-bee2-4424bbeda1dd Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R4 820
+  (    1 Net-(Q8-E) )
+  (    2 GND )
+ )
+ ( /78a014c5-18f4-4d33-a82e-b2a45a95732c Regulador_Lineal:Pin_Vertical_1x01_P2.54mm_Vertical  Vo2 Conn_01x01_Pin
+  (    1 Net-(J5-Pin_1) )
+ )
+ ( /7e3def2c-c827-4e59-83ad-0a2499ae5892 Regulador_Lineal:BC547  Q9 BC547
+  (    1 Net-(J3-Pin_1) )
+  (    2 Net-(Q9-B) )
+  (    3 Net-(J5-Pin_1) )
+ )
+ ( /7faf988a-b8f8-4d23-9328-92b2253f8a7e Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R6 4.7K
+  (    1 Net-(R5-Pad2) )
+  (    2 Net-(Q9-B) )
+ )
+ ( /8bfd38a0-ea71-4967-8af4-aadfb7cf41ed Regulador_Lineal:BC547  Q7 BC547
+  (    1 Net-(Q1-E) )
+  (    2 Net-(Q7-B) )
+  (    3 Net-(Q7-E) )
+ )
+ ( /94f95b9f-067a-43ee-8493-674c05c5c726 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  RF1 2.2K
+  (    1 Net-(J5-Pin_1) )
+  (    2 /Vf )
+ )
+ ( /981d1f55-e6bb-49d8-b320-164983f32e0e Regulador_Lineal:TIP42  Q5 TIP42C
+  (    1 Net-(Q5-B) )
+  (    2 Net-(J4-Pin_1) )
+  (    3 /Vreg )
+ )
+ ( /9a0db941-84e3-4321-b1ab-5954d3ff561b Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  Rpol1 1k
+  (    1 /Vref )
+  (    2 Net-(Q7-B) )
+ )
+ ( /9f26ab6b-90c4-4bae-ae0b-cd8a68512979 Regulador_Lineal:BC557  Q3 BC557
+  (    1 Net-(Q1-C) )
+  (    2 Net-(Q1-C) )
+  (    3 Net-(Q3-E) )
+ )
+ ( /a8cb2919-41ae-46d5-b564-75591ac5ddf6 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  RF2 2.2K
+  (    1 /Vf )
+  (    2 GND )
+ )
+ ( /aef5aaab-96ed-47fc-9ace-aba0e647e6b9 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  RL1 1K
+  (    1 Net-(J5-Pin_1) )
+  (    2 GND )
+ )
+ ( /b05debe3-ece9-4295-9338-186532398819 Regulador_Lineal:TL431  U1 TL431LP
+  (    1 /Vref )
+  (    2 GND )
+  (    3 Net-(Q10-B) )
+ )
+ ( /b4bf601b-324d-4efe-ac9e-5a72e47dc3d2 Regulador_Lineal:BC547  Q2 BC547
+  (    1 Net-(J3-Pin_1) )
+  (    2 /Vf )
+  (    3 Net-(Q1-E) )
+ )
+ ( /bf1b854f-f36b-4a61-a1f4-9b2f7c7a3876 Regulador_Lineal:Terminal_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal  J1 Screw_Terminal_01x02
+  (    1 GND )
+  (    2 Net-(J1-Pin_2) )
+ )
+ ( /c15fc169-a199-421e-82a6-cae45b0b7464 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R7 2.2
+  (    1 Net-(J4-Pin_1) )
+  (    2 Net-(J5-Pin_1) )
+ )
+ ( /c93ec22c-7fbe-47dc-81e8-3fde85bf4320 Regulador_Lineal:BC547  Q1 BC547
+  (    1 Net-(Q1-C) )
+  (    2 /Vref )
+  (    3 Net-(Q1-E) )
+ )
+ ( /c99b3d3c-33ec-4d91-8c84-451b6c6e530c Regulador_Lineal:BC547  Q8 BC547
+  (    1 Net-(Q7-B) )
+  (    2 Net-(Q7-B) )
+  (    3 Net-(Q8-E) )
+ )
+ ( /cc98a445-ddf7-4d67-ad14-51f65ff12ac7 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R3 820
+  (    1 GND )
+  (    2 Net-(Q7-E) )
+ )
+ ( /cca153ca-545d-4e4f-9f13-52fe94093b70 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R2 10K
+  (    1 Net-(Q9-B) )
+  (    2 GND )
+ )
+ ( /d2b38ff9-fad4-4968-8708-661b41851c08 Regulador_Lineal:BC547  Q6 BC547C
+  (    1 Net-(J3-Pin_1) )
+  (    2 Net-(J4-Pin_1) )
+  (    3 Net-(Q5-B) )
+ )
+ ( /d71b6017-0019-4e73-b003-3b0e54ff7d1d Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  RE3 470
+  (    1 /Vreg )
+  (    2 Net-(Q3-E) )
+ )
+ ( /d7fb99d6-71ee-413e-9434-507465d5939f Regulador_Lineal:Pin_Vertical_1x01_P2.54mm_Vertical  Vo1 Conn_01x01_Pin
+  (    1 /Vf )
+ )
+ ( /d93a4926-35cd-4902-82df-76241d92b1a8 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R9 2.5k
+  (    1 /Vref )
+  (    2 GND )
+ )
+ ( /ec30c6a8-407b-4e27-9235-f64d6baf2ac2 Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R1 1k
+  (    1 Net-(J1-Pin_2) )
+  (    2 Net-(Q10-B) )
+ )
+ ( /ec386149-e22e-492d-808b-df0465851d25 Regulador_Lineal:Terminal_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal  J2 Screw_Terminal_01x02
+  (    1 GND )
+  (    2 /Vreg )
+ )
+ ( /ed78b556-ec6f-4639-9a54-dfbb76ac389b Regulador_Lineal:Pin_Vertical_1x01_P2.54mm_Vertical  J3 Conn_01x01_Pin
+  (    1 Net-(J3-Pin_1) )
+ )
+ ( /ee7a4cd7-7a79-46fc-8b3d-dde3491e5fda Regulador_Lineal:Resistor_1_4W_L6.3mm_D2.5mm_P10.16mm_Horizontal  R5 220
+  (    1 Net-(J4-Pin_1) )
+  (    2 Net-(R5-Pad2) )
+ )
+)
+*

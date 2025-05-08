@@ -1,0 +1,214 @@
+(footprint "Capacitor_Poliester13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=10.00mm, length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 10.00mm length 13mm width 5mm Capacitor")
+	(property "Reference" "REF**"
+		(at 0 3.4 0)
+		(layer "F.SilkS")
+		(uuid "9e13130c-9309-4196-832c-89bd111130b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capacitor_Poliester13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+		(at 0 3.75 0)
+		(layer "F.Fab")
+		(uuid "c3da0809-c899-4c51-8304-380883c31e34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5e1389d-59c5-4dee-8927-cfec3b14c62e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9ca5669-8f88-42e5-ad1d-1e25dc76be57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.62 -2.62)
+		(end -6.62 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25a797a0-6329-49dd-a6f6-d885b4c67509")
+	)
+	(fp_line
+		(start -6.62 -2.62)
+		(end 6.62 -2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5308696b-ed15-4951-bc78-4fa7854ecdf8")
+	)
+	(fp_line
+		(start -6.62 2.62)
+		(end 6.62 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c181cf80-246d-4cd5-94cf-f8014016063c")
+	)
+	(fp_line
+		(start 6.62 -2.62)
+		(end 6.62 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7bf0a6-684d-4663-83e3-dbf764d3f49d")
+	)
+	(fp_line
+		(start -6.75 -2.75)
+		(end -6.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "413cade1-0ed8-4fde-b766-fae03cb2799f")
+	)
+	(fp_line
+		(start -6.75 2.75)
+		(end 6.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3280defb-a18e-43ff-ba2e-70df3eae8cc1")
+	)
+	(fp_line
+		(start 6.75 -2.75)
+		(end -6.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a568ab9e-f955-4d78-b8c0-a7a608db8896")
+	)
+	(fp_line
+		(start 6.75 2.75)
+		(end 6.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40568dc1-59ad-4c3b-8509-97cae575e1d6")
+	)
+	(fp_line
+		(start -6.5 -2.5)
+		(end -6.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c476cc4-c6f8-4bcd-aa1b-770947543327")
+	)
+	(fp_line
+		(start -6.5 2.5)
+		(end 6.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab6c40c2-7345-42a9-ac05-e42f9ab41a20")
+	)
+	(fp_line
+		(start 6.5 -2.5)
+		(end -6.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fa5b94a-5fa9-4276-b29e-e6f2d5ab1677")
+	)
+	(fp_line
+		(start 6.5 2.5)
+		(end 6.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b34832a-653f-4348-9e31-49e428101625")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1f6917b-a34f-4df0-8829-3831635dfa93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5937e1cd-53dc-4361-9cd1-c4457f95fc4c")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "107098ec-ce53-487e-82c0-df9daab147c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4.wrl"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
